@@ -100,8 +100,8 @@ namespace C_Sharp_5__Assignment
         public string PrintShipment()
         {
             return $"""
-                {TrackingCode} Tracking Code:
-                {Description} Description:
+                Tracking Code: {TrackingCode}
+                Description: {Description} 
                 Weight: {Weight}
                 Delivery Fee: {DeliveryFee}
                 Destination: {Destination.GetFullAddress()}
