@@ -8,9 +8,9 @@ namespace C_Sharp_5__Assignment
 
     internal struct Shipment
     {
-        private string _trackingCode;
+        private string? _trackingCode;
 
-        public string TrackingCode
+        public string? TrackingCode
         {
             get
             {
